@@ -30,8 +30,8 @@ A comprehensive machine learning pipeline for predicting structural response par
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/structural-ml-pipeline.git
-cd structural-ml-pipeline
+git clone https://github.com/AzizAyoubi/ML-Seismic-Response.git
+cd ML-Seismic-Response
 ```
 2. Install dependencies
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ### Data Preparation
 
-Place your dataset in `E:\PhD 2024\ML\dataset new mod2.xlsx` or modify `DATASET_PATH` accordingly.
+Place your dataset in `D:\Python\data.xlsx` or modify `DATASET_PATH` accordingly.
 
 Ensure proper formatting of seismic zone and soil type mappings.
 
@@ -92,7 +92,7 @@ python structural_ml_pipeline.py
 
 | Parameter                | Description                                     | Default Value          |
 |--------------------------|-------------------------------------------------|------------------------|
-| `DATASET_PATH`           | Path to structural analysis dataset             | `E:\PhD 2024\ML\...`    |
+| `DATASET_PATH`           | Path to structural analysis dataset             | `D:\Python\data.xlsx`    |
 | `TIME_HISTORY_PROPERTIES`| Earthquake ground motion characteristics         | 10 records defined     |
 | `ZONE_MAPPING`           | Seismic zone encoding                           | II-IV mapped to 1-4    |
 | `SOIL_MAPPING`           | Soil type encoding                              | A-C mapped to 1-3      |
@@ -100,7 +100,7 @@ python structural_ml_pipeline.py
 
 ## License
 
-Proprietary License - Copyright (c) 2023 A.Ayoubi. All rights reserved.
+Proprietary License - Copyright (c) 2025 A.Ayoubi. All rights reserved.
 
 ## Contact
 
