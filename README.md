@@ -40,20 +40,7 @@ pip install -r requirements.txt
 ```
 ### Requirements
 
-- Python 3.8+
-- numpy
-- pandas
-- scikit-learn
-- xgboost
-- lightgbm
-- catboost
-- tensorflow
-- keras-tuner
-- scikit-optimize
-- shap
-- matplotlib
-- joblib
-- openpyxl
+- Python 3.8
 
 ## Usage
 
